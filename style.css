@@ -10,6 +10,10 @@ body {
     font-weight: 400;
 }
 
+.menu-bg{
+  background-color: #afafe9!important;
+
+}
 h1,h2,h3,h4,h5,h6,p{
     margin: 8px 0;
 }
@@ -21,11 +25,8 @@ a{
 header{
      background: url(img/baner.jpg) no-repeat center center / cover;
 }
-a.nav-link {
-    font-family: sans-serif;
-    font-weight: 700px; 
-    color: #ffffff;
-}
+
+
 .slider-content{
     padding: 160px 0;
 
@@ -212,4 +213,22 @@ a.nav-link {
 }
 .text h3{
     font-size: 25px;
+}
+.scrollTop a{
+    font-size: 41px;
+    color: #fff;
+}
+.scrollTop {
+    height: 42px;
+    width: 42px;
+    background: black;
+   line-height: 41px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 60px;
+    right: 30px;
+    text-align: center;
+    display: none;
 }
